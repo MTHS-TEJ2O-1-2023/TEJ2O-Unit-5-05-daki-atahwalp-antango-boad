@@ -17,8 +17,8 @@ neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.show()
 basic.showIcon(IconNames.Happy)
 
-// On button A (turning traffic light on)
 input.onButtonPressed(Button.A, function () {
+  // On button A (turning traffic light on)
   basic.showIcon(IconNames.Happy)
   neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Green))
   basic.pause(3000)
