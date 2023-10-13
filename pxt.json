@@ -4,14 +4,15 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.5"
     },
     "files": [
         "main.ts",
         "README.md"
     ],
     "targetVersions": {
-        "target": "6.0.18",
+        "target": "6.0.19",
         "targetId": "microbit"
     },
     "supportedTargets": [
